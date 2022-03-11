@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  //background: linear-gradient(90deg, $G-color-13 0%, $G-color-14 100%);
+  background: $G-color-10;
+  font-family: "Roboto", sans-serif;
+  user-select: none;
+}
+
+@font-face {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v38/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2)
+    format("woff2");
+}
+
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+}
+
+.kanban {
+  display: grid;
+  grid-template:
+    "logo header" ($G-logo-header) "sidebar nav" ($G-sidebar-nav) "sidebar main" auto
+    / minmax(auto, 120px);
+    //minmax(290px, 1320px);
+}
+
+.kanban-wrapper {
+  //padding: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.loading {
+  color: $G-color-white;
+  font-size: 14px;
+  margin: auto;
+}

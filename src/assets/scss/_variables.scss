@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+$assetPath : '~@/assets/img/';
+
+/* G : global */
+$G-logo-header: 60px;
+$G-sidebar-nav: 80px;
+
+
+$G-color-1: #E3BEC6;
+$G-color-2: #EFDAD7;
+$G-color-3: #D9D7F1;
+$G-color-4: #AD8B73;
+$G-color-5: #E3CAA5;
+$G-color-6: #94B49F;
+$G-color-7: #789395;
+$G-color-8: #A7D0CD;
+$G-color-9: #FFE9D6;
+$G-color-10: #f6f8fc;
+$G-color-11: #d2d7e0;
+$G-color-12: #d8d8e4;
+$G-color-13: #FFCBCB;
+$G-color-14: #EFDAD7;
+$G-color-15: #fff;
+
+//$G-color-logo: #888fdc;
+$G-color-logo: $G-color-1;
+$G-color-bar: $G-color-11;
+$G-color-bar-w: #b7bec7;
+$G-color-white: white;
+//$G-color-nav: #eef2f9;
+$G-color-nav: $G-color-10;
+//$G-color-icon: #a1ffff;
+$G-color-icon: $G-color-10;
+$G-color-name: #707090;
+
+/*$G-color-1: #9ea7fc;
+$G-color-2: #65b6f7;
+$G-color-3: #6eb4f7;
+$G-color-4: #81d5ee;
+$G-color-5: #7ed492;
+$G-color-6: #c781ff;
+$G-color-7: #e57373;
+$G-color-8: #ff9985;
+$G-color-9: #ffb74e;
+$G-color-10: #f6f8fc;
+$G-color-11: #d2d7e0;
+$G-color-12: #d8d8e4;
+$G-color-13: #bad6f9;
+$G-color-14: #bccdf2;
+$G-color-15: #fff;
+
+//$G-color-logo: #888fdc;
+$G-color-logo: $G-color-1;
+$G-color-bar: $G-color-11;
+$G-color-bar-w: #b7bec7;
+$G-color-white: white;
+//$G-color-nav: #eef2f9;
+$G-color-nav: $G-color-10;
+$G-color-icon: #a1ffff;
+$G-color-name: #707090;*/
+
+
+$G-color-low: linear-gradient(90deg, $G-color-1 17%, $G-color-3 83%);
+$G-color-med: linear-gradient(138.6789deg, $G-color-4 17%, $G-color-5 83%);
+$G-color-high: linear-gradient(138.6789deg, $G-color-6 17%, $G-color-7 83%);
+
+$G-color-backlog: radial-gradient(circle at top left, $G-color-6, $G-color-7);
+$G-color-in-progress: radial-gradient(circle at top left, $G-color-8, $G-color-9);
+$G-color-review: radial-gradient(circle at top left, $G-color-1, $G-color-3);
+$G-color-complete: radial-gradient(circle at top left, $G-color-4, $G-color-5);
+//$G-color-backlog: linear-gradient($G-color-10, $G-color-10), radial-gradient(circle at top left, $G-color-6, $G-color-7);
+//$G-color-in-progress: linear-gradient($G-color-10, $G-color-10), radial-gradient(circle at top left, $G-color-8, $G-color-9);
+//$G-color-review: linear-gradient($G-color-10, $G-color-10), radial-gradient(circle at top left, $G-color-1, $G-color-3);
+//$G-color-complete: linear-gradient($G-color-10, $G-color-10), radial-gradient(circle at top left, $G-color-4, $G-color-5);
